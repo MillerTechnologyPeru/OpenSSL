@@ -36,5 +36,7 @@ class OpenSSLTests: XCTestCase {
         print("CRYPTO_num_locks() = \(CRYPTO_num_locks())")
         
         print("SSL_SESSION_new() = \(SSL_SESSION_new())")
+        
+        print("TLS_client_method = \(TLS_client_method)")
     }
 }

@@ -371,7 +371,8 @@
 				1A7E2E661B93E88100B155CB /* libcrypto.a */,
 				1A7E2E671B93E88100B155CB /* libssl.a */,
 			);
-			path = "OS X";
+			name = "OS X";
+			path = Mac;
 			sourceTree = "<group>";
 		};
 		1A7E2E6E1B93E95B00B155CB /* Headers */ = {
@@ -846,8 +847,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BuiltLibraries/OS",
-					X,
+					"$(PROJECT_DIR)/BuiltLibraries/Mac",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -892,8 +892,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BuiltLibraries/OS",
-					X,
+					"$(PROJECT_DIR)/BuiltLibraries/Mac",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -945,11 +944,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Built",
-					Libraries/iOS,
-				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.openssl.OpenSSL;
@@ -1002,11 +996,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Built",
-					Libraries/iOS,
-				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.openssl.OpenSSL;
 				PRODUCT_NAME = OpenSSL;
@@ -1064,19 +1053,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/openssl",
-					"$(PROJECT_DIR)/Built",
-					Libraries/OS,
-					X,
-				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = (
-					"-lcrypto",
-					"-lssl",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.openssl.OpenSSL;
 				PRODUCT_NAME = OpenSSL;
 				SKIP_INSTALL = YES;
@@ -1124,19 +1102,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/openssl",
-					"$(PROJECT_DIR)/Built",
-					Libraries/OS,
-					X,
-				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"-lcrypto",
-					"-lssl",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.openssl.OpenSSL;
 				PRODUCT_NAME = OpenSSL;
 				SKIP_INSTALL = YES;
