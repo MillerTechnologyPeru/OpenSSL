@@ -348,7 +348,8 @@
 				1A7E2E651B93E88100B155CB /* OS X */,
 				1A7E2E621B93E88100B155CB /* iOS */,
 			);
-			path = "Built Libraries";
+			name = "Built Libraries";
+			path = BuiltLibraries;
 			sourceTree = "<group>";
 		};
 		1A7E2E621B93E88100B155CB /* iOS */ = {
