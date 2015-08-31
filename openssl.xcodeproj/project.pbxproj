@@ -167,6 +167,8 @@
 		1A7E2FAB1B93EB4300B155CB /* libssl.a in Copy Static Libraries */ = {isa = PBXBuildFile; fileRef = 1A7E2E671B93E88100B155CB /* libssl.a */; };
 		1A7E2FAD1B93EB5700B155CB /* libcrypto.a in Copy Static Libraries */ = {isa = PBXBuildFile; fileRef = 1A7E2E631B93E88100B155CB /* libcrypto.a */; };
 		1A7E2FAE1B93EB5A00B155CB /* libssl.a in Copy Static Libraries */ = {isa = PBXBuildFile; fileRef = 1A7E2E641B93E88100B155CB /* libssl.a */; };
+		1A7E2FE01B9406B800B155CB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E2E661B93E88100B155CB /* libcrypto.a */; };
+		1A7E2FE11B9406BA00B155CB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E2E671B93E88100B155CB /* libssl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -303,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A01159C1B910FD0001E4035 /* OpenSSL.framework in Frameworks */,
+				1A7E2FE01B9406B800B155CB /* libcrypto.a in Frameworks */,
+				1A7E2FE11B9406BA00B155CB /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,6 +844,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = OpenSSLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BuiltLibraries/OS",
+					X,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -881,6 +890,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = OpenSSLTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BuiltLibraries/OS",
+					X,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.openssl.OpenSSLTests;
