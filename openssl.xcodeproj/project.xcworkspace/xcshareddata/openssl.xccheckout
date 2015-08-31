@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59BEDCF1-F2FD-4806-917C-3ECFB9E5DDCF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>openssl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55A7FB660E25DAD7EFF279C9F437500B47348AC7</key>
+		<string>https://github.com/openssl/openssl.git</string>
+		<key>D482924C5AFED88D3216BDD72C2302DD55AD6268</key>
+		<string>https://github.com/PureSwift/openssl-xcode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>openssl.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55A7FB660E25DAD7EFF279C9F437500B47348AC7</key>
+		<string>../..openssl/</string>
+		<key>D482924C5AFED88D3216BDD72C2302DD55AD6268</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PureSwift/openssl-xcode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D482924C5AFED88D3216BDD72C2302DD55AD6268</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55A7FB660E25DAD7EFF279C9F437500B47348AC7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openssl</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D482924C5AFED88D3216BDD72C2302DD55AD6268</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openssl-xcode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

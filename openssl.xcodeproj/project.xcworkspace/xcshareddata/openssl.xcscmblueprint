@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D482924C5AFED88D3216BDD72C2302DD55AD6268",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55A7FB660E25DAD7EFF279C9F437500B47348AC7" : 0,
+    "D482924C5AFED88D3216BDD72C2302DD55AD6268" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "59BEDCF1-F2FD-4806-917C-3ECFB9E5DDCF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55A7FB660E25DAD7EFF279C9F437500B47348AC7" : "openssl-xcode\/openssl\/",
+    "D482924C5AFED88D3216BDD72C2302DD55AD6268" : "openssl-xcode\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "openssl",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "openssl.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/openssl\/openssl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55A7FB660E25DAD7EFF279C9F437500B47348AC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PureSwift\/openssl-xcode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D482924C5AFED88D3216BDD72C2302DD55AD6268"
+    }
+  ]
+}
