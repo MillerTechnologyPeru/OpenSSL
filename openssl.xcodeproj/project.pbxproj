@@ -184,7 +184,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 16;
+			dstSubfolderSpec = 11;
 			files = (
 				1A7E2FAA1B93EB4300B155CB /* libcrypto.a in Copy Static Libraries */,
 				1A7E2FAB1B93EB4300B155CB /* libssl.a in Copy Static Libraries */,
@@ -196,7 +196,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 16;
+			dstSubfolderSpec = 11;
 			files = (
 				1A7E2FAD1B93EB5700B155CB /* libcrypto.a in Copy Static Libraries */,
 				1A7E2FAE1B93EB5A00B155CB /* libssl.a in Copy Static Libraries */,
